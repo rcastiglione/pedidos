@@ -14,7 +14,7 @@ Evaluación técnica solicitada a los candidatos por Navent.
 $ git clone https://github.com/rcastiglione/pedidos.git
 $ mvn jetty:run
 ```
-Access ```http://localhost:8080/pedidos```
+Access ```http://localhost:8080/pedidos/app```
 
 ###3. To import this project into Eclipse IDE
 1. ```$ mvn eclipse:eclipse```
