@@ -1,9 +1,10 @@
-package com.mkyong.web.model;
+package ar.com.navent.web.model;
 
 import java.util.List;
 
+import ar.com.navent.web.jsonview.Views;
+
 import com.fasterxml.jackson.annotation.JsonView;
-import com.mkyong.web.jsonview.Views;
 
 public class AjaxResponseBody {
 

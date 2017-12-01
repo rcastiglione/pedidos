@@ -1,8 +1,8 @@
-package com.mkyong.servlet3;
+package ar.com.navent.servlet3;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-import com.mkyong.config.SpringWebConfig;
+import ar.com.navent.config.SpringWebConfig;
 
 public class MyWebInitializer extends
 		AbstractAnnotationConfigDispatcherServletInitializer {

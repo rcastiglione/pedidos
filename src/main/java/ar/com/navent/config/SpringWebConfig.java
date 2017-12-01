@@ -1,4 +1,4 @@
-package com.mkyong.config;
+package ar.com.navent.config;
  
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -11,7 +11,7 @@ import org.springframework.web.servlet.view.JstlView;
  
 @EnableWebMvc
 @Configuration
-@ComponentScan({ "com.mkyong.web" })
+@ComponentScan({ "ar.com.navent.web" })
 public class SpringWebConfig extends WebMvcConfigurerAdapter {
  
 	@Override

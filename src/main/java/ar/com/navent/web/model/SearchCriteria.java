@@ -1,4 +1,4 @@
-package com.mkyong.web.model;
+package ar.com.navent.web.model;
 
 public class SearchCriteria {
 

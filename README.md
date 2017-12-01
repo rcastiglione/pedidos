@@ -1,6 +1,6 @@
-Spring 4 MVC Ajax Example
+Evaluación Técnica - Navent - Pedidos
 ===============================
-Template for Spring 4 MVC + jQuery Ajax + Jackson2, using Maven build tool.
+Evaluación técnica solicitada a los candidatos por Navent. 
 
 ###1. Technologies used
 * Spring 4.2.2.RELEASE
@@ -11,15 +11,12 @@ Template for Spring 4 MVC + jQuery Ajax + Jackson2, using Maven build tool.
 
 ###2. To Run this project locally
 ```shell
-$ git clone https://github.com/mkyong/spring4-mvc-ajax-example
+$ git clone https://github.com/rcastiglione/pedidos.git
 $ mvn jetty:run
 ```
-Access ```http://localhost:8080/spring4ajax```
+Access ```http://localhost:8080/pedidos```
 
 ###3. To import this project into Eclipse IDE
 1. ```$ mvn eclipse:eclipse```
 2. Import into Eclipse via **existing projects into workspace** option.
 3. Done.
-
-###4. Project Demo
-Please refer to this article [Spring 4 Ajax Example](http://www.mkyong.com/spring-mvc/spring-4-mvc-ajax-hello-world-example/)

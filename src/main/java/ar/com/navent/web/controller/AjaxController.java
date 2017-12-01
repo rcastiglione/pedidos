@@ -1,4 +1,4 @@
-package com.mkyong.web.controller;
+package ar.com.navent.web.controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,11 +10,12 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import ar.com.navent.web.jsonview.Views;
+import ar.com.navent.web.model.AjaxResponseBody;
+import ar.com.navent.web.model.SearchCriteria;
+import ar.com.navent.web.model.User;
+
 import com.fasterxml.jackson.annotation.JsonView;
-import com.mkyong.web.jsonview.Views;
-import com.mkyong.web.model.AjaxResponseBody;
-import com.mkyong.web.model.SearchCriteria;
-import com.mkyong.web.model.User;
 
 @RestController
 public class AjaxController {
